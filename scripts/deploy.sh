@@ -11,5 +11,5 @@ git --work-tree dist commit -m "deploy"
 git push origin HEAD:deploy --force
 rm -r dist
 
-git checkout -f main
+git checkout -f dev
 git branch -D deploy
