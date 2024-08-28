@@ -20,7 +20,7 @@
 
 <script lang="ts">
 export default {
-  name: "SocialComponent",
+  name: "SocialComponent"
 }
 </script>
 
