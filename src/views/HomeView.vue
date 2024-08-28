@@ -4,7 +4,8 @@
     <companies-section-component />
     <join-section-component class="my-[300px]" />
     <lugano-section-component class="mb-[300px]" />
-    <team-section-component class="mb-[300px]" />
+    <team-section-component />
+    <final-section-component />
   </main>
 </template>
 
@@ -15,10 +16,12 @@ import CompaniesSectionComponent from "@/components/sections/CompaniesSectionCom
 import JoinSectionComponent from "@/components/sections/JoinSectionComponent.vue";
 import LuganoSectionComponent from "@/components/sections/LuganoSectionComponent.vue";
 import TeamSectionComponent from "@/components/sections/TeamSectionComponent.vue";
+import FinalSectionComponent from "@/components/sections/FinalSectionComponent.vue";
 
 export default {
   name: 'HomeView',
   components: {
+    FinalSectionComponent,
     TeamSectionComponent,
     LuganoSectionComponent,
     JoinSectionComponent,
