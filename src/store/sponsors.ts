@@ -40,10 +40,10 @@ export const useSponsorsStore = defineStore('sponsors', {
                 name: 'banana',
                 url: 'https://www.banana.ch/'
             },
-            // {
-            //     name: 'seegarten',
-            //     url: 'https://www.hotellido-lugano.com/en/'
-            // }
+            {
+                name: 'seegarten',
+                url: 'https://www.hotellido-lugano.com/en/'
+            }
         ] as Sponsor[]
     })
 })

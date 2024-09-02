@@ -1,6 +1,6 @@
 <template>
   <div class="h-full w-full">
-    <background-top-component />
+    <background-top-component v-if="$route.name === 'home'" />
     <navigation-bar-component />
 
     <router-view />
