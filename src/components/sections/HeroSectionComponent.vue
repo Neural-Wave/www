@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col justify-center items-center gap-9 h-[calc(80vh-167.3px)] sm:h-[calc(80vh-145px)]">
+  <div class="flex flex-col justify-center items-center gap-9 py-20 sm:h-[calc(80vh-145px)]">
     <div class="flex flex-wrap justify-center gap-6">
       <img src="../../assets/pill/pill-location.svg" class="h-[35px]" alt="Lugano is the location of the hackathon" />
       <img src="../../assets/pill/pill-date.svg" class="h-[35px]" alt="The hackathon lasts from the 25th to the 27th of October" />

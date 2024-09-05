@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col gap-10 w-full px-[50px] sm:px-[100px] py-[100px]">
+  <div class="flex flex-col gap-10 w-full p-[50px] sm:p-[100px]">
     <div v-for="category in categories" :key="category.valueOf()" class="flex flex-col gap-3">
       <span class="text-2xl font-bold">{{ category }}</span>
 
