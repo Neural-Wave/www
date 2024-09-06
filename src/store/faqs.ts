@@ -14,14 +14,14 @@ export const useFaqsStore = defineStore('faqs', {
                 answer: "Yes, there will be a small fee of 10 CHF.",
                 category: "Registration"
             },
-            // {
-            //     question: "How does the preselection work?",
-            //     answer: "We are targeting individuals with at least some experience in programming, and particularly AI/ML, but you don't have to be an expert by any means! As long as you feel comfortable with such terms as \"neural networks\", etc., feel free to sign up!",
-            //     category: "Registration"
-            // },
+            {
+                question: "How does the selection process work?",
+                answer: "First, pre-register to show your interest. This step isn’t binding, but please only apply if you’re serious about joining. We’ll review all applications to see if we can match your skill set with the companies' needs. If you’re applying as a team, we’ll assess your group as a whole. If selected, you’ll receive an email with a link to register. Congrats, you’re in! 🎉 Final step: Confirm your spot by registering on the MyLugano app and pay the 10 CHF fee. We can’t wait to see you there! 🙌 Once registered, you'll be invited to our Discord server, where you can connect with other participants, get all the latest updates, and access additional resources.",
+                category: "Registration"
+            },
             {
                 question: "When will I know if I am accepted? What's the general timeline?",
-                answer: "You should receive an email during the month September letting you know if you're in!",
+                answer: "You should receive an email during the month of September letting you know if you're in!",
                 category: "Registration"
             },
             {
