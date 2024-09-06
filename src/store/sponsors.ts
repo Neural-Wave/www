@@ -29,6 +29,10 @@ export const useSponsorsStore = defineStore('sponsors', {
                 url: 'https://www.cscs.ch/'
             },
             {
+                name: 'duferco',
+                url: 'https://www.duferco.com/'
+            },
+            {
                 name: 'brightside',
                 url: 'https://brightside-capital.com/'
             },
