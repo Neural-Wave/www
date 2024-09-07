@@ -41,7 +41,7 @@ export const useFaqsStore = defineStore('faqs', {
             },
             {
                 question: "Will we have food and drinks during the event?",
-                answer: "Yes, and they will be available free of charge.",
+                answer: "Yes, and they will be available free of charge. Moreover, water dispensers will be present, so be sure to bring a water bottle.",
                 category: "Organization"
             },
             {

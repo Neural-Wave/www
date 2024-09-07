@@ -1,7 +1,9 @@
 <template>
   <div class="flex flex-col gap-20 m-[50px] sm:m-[100px]">
     <div class="flex flex-col gap-5">
-      <img class="border border-nw-border rounded-lg" src="../assets/background/map.png" alt="USI campus map">
+      <a href="https://maps.app.goo.gl/A9hDDrykV7KnXVhW6" target="_blank">
+        <img class="border border-nw-border rounded-lg" src="../assets/location/map.png" alt="USI campus map">
+      </a>
 
       <div class="flex flex-wrap gap-5">
         <div class="flex gap-3 items-center">
@@ -26,7 +28,7 @@
 
       <div class="flex flex-col gap-2">
         <span class="text-xl font-bold">By Bus</span>
-        <span>From the square in front of the Lugano railway station (Lugano FFS), you can take the Bus n.6 towards Cornaredo. You need to get off at the "Univeristà" station. You can click <a class="underline" href="https://maps.app.goo.gl/xG6GHdnSHBfz2ngm7">here</a> to see the directions on the map.</span>
+        <span>From the square in front of the Lugano railway station (Lugano FFS), you can take the Bus n.6 towards Cornaredo. You need to get off at the "Univeristà" station. You can click <a class="underline" href="https://maps.app.goo.gl/xG6GHdnSHBfz2ngm7" target="_blank">here</a> to see the directions on the map.</span>
       </div>
 
       <div class="flex flex-col gap-2">
@@ -36,7 +38,16 @@
 
       <div class="flex flex-col gap-2">
         <span class="text-xl font-bold">By Plane</span>
-        <span>Milano-Malpensa, Milano-Linate and Milano-Orio al Serio Airports are within a radius of 60-100 km from Lugano. There are <a class="underline" href="https://www.tilo.ch/en/collegamenti/S50.html">trains</a> to and from Milano-Malpensa Airport directly to Lugano FFS.</span>
+        <span>Milano-Malpensa, Milano-Linate and Milano-Orio al Serio Airports are within a radius of 60-100 km from Lugano. There are <a class="underline" href="https://www.tilo.ch/en/collegamenti/S50.html" target="_blank">trains</a> to and from Milano-Malpensa Airport directly to Lugano FFS.</span>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-5">
+      <span class="text-2xl font-bold">Hackathon Location - Aula Magna</span>
+
+      <div class="flex flex-col lg:flex-row gap-5">
+        <img class="border border-nw-border rounded-lg lg:w-[50%] lg:h-[50%]" src="../assets/location/aula-magna-campus.jpg" alt="aula magna as seen from outside">
+        <img class="border border-nw-border rounded-lg lg:w-[50%] lg:h-[50%]" src="../assets/location/aula-magna.jpg" alt="aula magna as seen from inside">
       </div>
     </div>
   </div>
