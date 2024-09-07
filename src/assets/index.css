@@ -76,6 +76,7 @@
   }
   * {
     font-family: "DM Sans", sans-serif;
+    text-align: justify;
     @apply border-border;
   }
   body {
