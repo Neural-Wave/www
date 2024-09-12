@@ -1,7 +1,7 @@
 <template>
   <nav class="flex flex-col justify-center p-[50px] gap-10">
     <div class="flex justify-between items-center max-[848px]:flex-col max-[848px]:gap-8">
-      <img src="../../assets/branding/logo-white.svg" alt="white variant of the Neural Wave logo" class="h-[30px]">
+      <img src="../../assets/branding/logo-white.svg" alt="white variant of the Neural Wave logo" class="h-[30px]" />
       <navigation-component class="max-[1045px]:hidden" />
       <social-component />
     </div>

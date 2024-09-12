@@ -50,6 +50,12 @@
         <img class="border border-nw-border rounded-lg lg:w-[50%] lg:h-[50%]" src="../assets/location/aula-magna.jpg" alt="aula magna as seen from inside">
       </div>
     </div>
+
+    <div class="flex flex-col gap-5">
+      <span class="text-2xl font-bold">USI - Faculty of Informatics</span>
+
+      <img class="border border-nw-border rounded-lg lg:w-[50%] lg:h-[50%]" src="../assets/background/usi-20.jpg" alt="logo of the 20 years of USI informatics">
+    </div>
   </div>
 </template>
 
