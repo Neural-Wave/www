@@ -49,6 +49,10 @@ export const useSponsorsStore = defineStore('sponsors', {
                 url: 'https://egonym.com/'
             },
             {
+                name: 'pastahr',
+                url: 'https://www.pastahr.com/'
+            },
+            {
                 name: 'seegarten',
                 url: 'https://www.hotellido-lugano.com/en/'
             }
