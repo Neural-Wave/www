@@ -5,9 +5,9 @@ export const useScheduleStore = defineStore('scheduleStore', {
         schedule: {
             friday: [
                 {
-                    time: 'TBA',
+                    time: '17:00',
                     event: 'Welcome to the event',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 },
                 {
                     time: 'TBA',
@@ -59,9 +59,9 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'TBA'
                 },
                 {
-                    time: '~ 16:30',
+                    time: '16:00',
                     event: 'Closing remarks',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 }
             ]
         }

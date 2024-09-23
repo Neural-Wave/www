@@ -10,7 +10,7 @@
           <table-header>
             <table-head class="w-[80px]">Time</table-head>
             <table-head>Event</table-head>
-            <table-head class="w-[80px]">Place</table-head>
+            <table-head class="w-[107px]">Place</table-head>
           </table-header>
 
           <table-body>
