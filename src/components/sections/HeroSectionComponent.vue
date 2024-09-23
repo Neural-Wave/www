@@ -63,7 +63,7 @@ export default {
     }
   },
   mounted() {
-    const deadline = new Date('3 Oct 2024 23:59:59').toLocaleString('en-En', {timeZone: "Europe/Zurich"})
+    const deadline = new Date('2 Oct 2024 23:59:59').toLocaleString('en-En', {timeZone: "Europe/Zurich"})
     this.timer = useTimer(new Date(deadline).getTime(), true)
   }
 }
