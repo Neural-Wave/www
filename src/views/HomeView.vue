@@ -1,12 +1,7 @@
 <template>
   <main class="flex flex-col items-center px-[50px]">
     <hero-section-component />
-
-<!--    <div class="absolute bottom-7 right-10 rounded-full border border-nw-border bg-[#160D2F] bg-opacity-20 p-2" id="arrow">-->
-<!--      <arrow-down class="h-6 w-6" />-->
-<!--    </div>-->
-
-    <companies-section-component />
+    <companies-section-component class="mt-[100px]" />
     <join-section-component class="my-[300px]" />
     <lugano-section-component class="mb-[300px]" />
     <team-section-component />
