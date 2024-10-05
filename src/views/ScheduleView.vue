@@ -15,7 +15,7 @@
 
           <table-body>
             <table-row v-for="event in events" class="text-white border-b-nw-border hover:bg-transparent">
-              <table-cell>{{ event.time }}</table-cell>
+              <table-cell class="font-mono">{{ event.time }}</table-cell>
               <table-cell>{{ event.event }}</table-cell>
               <table-cell>{{ event.place }}</table-cell>
             </table-row>
