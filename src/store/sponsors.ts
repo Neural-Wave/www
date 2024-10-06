@@ -8,6 +8,7 @@ interface Sponsor {
 
 export const useSponsorsStore = defineStore('sponsors', {
     state: () => ({
+        categories: ['main', 'silver', 'bronze', 'project', 'compute', 'other'],
         sponsors: [
             {
                 name: 'usi',
@@ -67,6 +68,11 @@ export const useSponsorsStore = defineStore('sponsors', {
             {
                 name: 'seegarten',
                 url: 'https://www.hotellido-lugano.com/en/',
+                type: 'other'
+            },
+            {
+                name: 'masaba',
+                url: 'https://www.masabacoffee.ch/en',
                 type: 'other'
             }
         ] as Sponsor[]
