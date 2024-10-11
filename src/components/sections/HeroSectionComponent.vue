@@ -13,35 +13,36 @@
     </span>
 
     <div class="flex flex-col items-center gap-4">
-      <span class="text-center opacity-60">What are you waiting for? <br /> The registration will close in</span>
+      <span class="text-center opacity-60">What are you waiting for? <br /> A limited number of spots is still available!</span>
+<!--      <span class="text-center opacity-60">What are you waiting for? <br /> The registration will close in</span>-->
 
-      <div class="flex gap-2">
-        <div class="flex flex-col items-center">
-          <span class="text-2xl font-mono">{{timer.days}}</span>
-          <span class="text-xs text-gray-400">Days</span>
-        </div>
+<!--      <div class="flex gap-2">-->
+<!--        <div class="flex flex-col items-center">-->
+<!--          <span class="text-2xl font-mono">{{timer.days}}</span>-->
+<!--          <span class="text-xs text-gray-400">Days</span>-->
+<!--        </div>-->
 
-        <div class="text-2xl font-mono">:</div>
+<!--        <div class="text-2xl font-mono">:</div>-->
 
-        <div class="flex flex-col items-center">
-          <span class="text-2xl font-mono">{{timer.hours}}</span>
-          <span class="text-xs text-gray-400">Hours</span>
-        </div>
+<!--        <div class="flex flex-col items-center">-->
+<!--          <span class="text-2xl font-mono">{{timer.hours}}</span>-->
+<!--          <span class="text-xs text-gray-400">Hours</span>-->
+<!--        </div>-->
 
-        <div class="text-2xl font-mono">:</div>
+<!--        <div class="text-2xl font-mono">:</div>-->
 
-        <div class="flex flex-col items-center">
-          <span class="text-2xl font-mono">{{timer.minutes}}</span>
-          <span class="text-xs text-gray-400">Minutes</span>
-        </div>
+<!--        <div class="flex flex-col items-center">-->
+<!--          <span class="text-2xl font-mono">{{timer.minutes}}</span>-->
+<!--          <span class="text-xs text-gray-400">Minutes</span>-->
+<!--        </div>-->
 
-        <div class="text-2xl font-mono">:</div>
+<!--        <div class="text-2xl font-mono">:</div>-->
 
-        <div class="flex flex-col items-center">
-          <span class="text-2xl font-mono">{{timer.seconds}}</span>
-          <span class="text-xs text-gray-400">Seconds</span>
-        </div>
-      </div>
+<!--        <div class="flex flex-col items-center">-->
+<!--          <span class="text-2xl font-mono">{{timer.seconds}}</span>-->
+<!--          <span class="text-xs text-gray-400">Seconds</span>-->
+<!--        </div>-->
+<!--      </div>-->
 
       <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Register Now!</cta-component>
     </div>
