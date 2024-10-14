@@ -57,7 +57,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'TBA'
                 },
                 {
-                    time: '14:00 16:00',
+                    time: '14:00 17:00',
                     event: 'Networking at company stands',
                     place: 'TBA'
                 },

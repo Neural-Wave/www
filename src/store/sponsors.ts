@@ -56,11 +56,6 @@ export const useSponsorsStore = defineStore('sponsors', {
                 type: 'bronze'
             },
             {
-                name: 'egonym',
-                url: 'https://egonym.com/',
-                type: 'project'
-            },
-            {
                 name: 'pastahr',
                 url: 'https://www.pastahr.com/',
                 type: 'project'
