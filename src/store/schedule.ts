@@ -34,59 +34,59 @@ export const useScheduleStore = defineStore('scheduleStore', {
                 {
                     time: '07:00 07:15',
                     event: 'Morning Yoga',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 },
                 {
                     time: '08:00 09:00',
                     event: 'Breakfast',
-                    place: 'TBA'
+                    place: 'Foyer'
                 },
                 {
                     time: '11:00',
                     event: 'Keynote',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 },
                 {
                     time: '12:00 12:15',
                     event: 'Surprise challenge #1',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 },
                 {
                     time: '13:00',
                     event: 'Lunch',
-                    place: 'TBA'
+                    place: 'Foyer'
                 },
                 {
                     time: '14:00 17:00',
                     event: 'Networking at company stands',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 },
                 {
                     time: '17:00',
                     event: 'Keynote',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 },
                 {
                     time: '18:00',
                     event: 'Dinner',
-                    place: 'TBA'
+                    place: 'Foyer'
                 },
                 {
                     time: '20:30 20:45',
                     event: 'Surprise challenge #2',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 }
             ],
             sunday: [
                 {
                     time: '07:00 07:15',
                     event: 'Morning Yoga',
-                    place: 'TBA'
+                    place: 'Aula Magna'
                 },
                 {
                     time: '08:00 09:00',
                     event: 'Breakfast',
-                    place: 'TBA'
+                    place: 'Foyer'
                 },
                 {
                     time: '11:00',
@@ -96,7 +96,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
                 {
                     time: '12:00',
                     event: 'Lunch',
-                    place: 'TBA'
+                    place: 'Foyer'
                 },
                 {
                     time: '14:00',
