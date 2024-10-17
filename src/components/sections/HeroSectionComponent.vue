@@ -13,7 +13,7 @@
     </span>
 
     <div class="flex flex-col items-center gap-4">
-      <span class="text-center opacity-60">Registrations are now close. See you at the event!</span>
+      <span class="text-center opacity-60">Registrations are now closed. See you at the event!</span>
 <!--      <span class="text-center opacity-60">What are you waiting for? <br /> A limited number of spots are still available!</span>-->
 <!--      <span class="text-center opacity-60">What are you waiting for? <br /> The registration will close in</span>-->
 
