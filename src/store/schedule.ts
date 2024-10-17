@@ -6,7 +6,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
             friday: [
                 {
                     time: '17:00',
-                    event: 'Arrival, registration and team formation',
+                    event: 'Arrival, registration, and team formation',
                     place: 'Aula Magna'
                 },
                 {
@@ -25,7 +25,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'Aula Magna'
                 },
                 {
-                    time: '19:00',
+                    time: '19:15',
                     event: 'Event Kick-Off: Start Hacking!',
                     place: 'Aula Magna'
                 },
@@ -37,7 +37,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'Aula Magna'
                 },
                 {
-                    time: '08:00 09:00',
+                    time: '08:30',
                     event: 'Breakfast',
                     place: 'Foyer'
                 },
@@ -84,7 +84,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
                     place: 'Aula Magna'
                 },
                 {
-                    time: '08:00 09:00',
+                    time: '08:30',
                     event: 'Breakfast',
                     place: 'Foyer'
                 },

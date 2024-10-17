@@ -7,7 +7,8 @@
       among the first to receive updates about the Neural Wave hackathon
     </span>
 
-    <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Fill in the Form</cta-component>
+    <span class="text-center opacity-60">Registrations are now close. See you at the event!</span>
+<!--    <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Fill in the Form</cta-component>-->
   </div>
 </template>
 

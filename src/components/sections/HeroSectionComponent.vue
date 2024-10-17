@@ -13,7 +13,8 @@
     </span>
 
     <div class="flex flex-col items-center gap-4">
-      <span class="text-center opacity-60">What are you waiting for? <br /> A limited number of spots are still available!</span>
+      <span class="text-center opacity-60">Registrations are now close. See you at the event!</span>
+<!--      <span class="text-center opacity-60">What are you waiting for? <br /> A limited number of spots are still available!</span>-->
 <!--      <span class="text-center opacity-60">What are you waiting for? <br /> The registration will close in</span>-->
 
 <!--      <div class="flex gap-2">-->
@@ -44,7 +45,7 @@
 <!--        </div>-->
 <!--      </div>-->
 
-      <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Register Now!</cta-component>
+<!--      <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Register Now!</cta-component>-->
     </div>
   </div>
 </template>
