@@ -16,6 +16,11 @@ export const useSponsorsStore = defineStore('sponsors', {
                 type: 'main'
             },
             {
+                name: 'hasler',
+                url: 'https://haslerstiftung.ch/',
+                type: 'main'
+            },
+            {
                 name: 'lightning',
                 url: 'https://lightning.ai/',
                 type: 'compute'
@@ -41,6 +46,11 @@ export const useSponsorsStore = defineStore('sponsors', {
                 type: 'silver, project'
             },
             {
+                name: 'casale',
+                url: 'https://www.casale.ch/',
+                type: 'silver'
+            },
+            {
                 name: 'brightside',
                 url: 'https://brightside-capital.com/',
                 type: 'bronze'
@@ -58,6 +68,11 @@ export const useSponsorsStore = defineStore('sponsors', {
             {
                 name: 'pastahr',
                 url: 'https://www.pastahr.com/',
+                type: 'project'
+            },
+            {
+                name: 'ai4privacy',
+                url: 'https://www.ai4privacy.com/',
                 type: 'project'
             },
             {
