@@ -51,6 +51,11 @@ export const useSponsorsStore = defineStore('sponsors', {
                 type: 'silver'
             },
             {
+                name: 'usc',
+                url: 'https://www.startup.usi.ch/en',
+                type: 'bronze'
+            },
+            {
                 name: 'brightside',
                 url: 'https://brightside-capital.com/',
                 type: 'bronze'
