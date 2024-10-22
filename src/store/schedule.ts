@@ -16,7 +16,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
                 },
                 {
                     time: '18:15',
-                    event: 'Presentation of the projects',
+                    event: 'Keynote by Duferco',
                     place: 'Aula Magna'
                 },
                 {
