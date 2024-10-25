@@ -6,7 +6,7 @@ export const useScheduleStore = defineStore('scheduleStore', {
             friday: [
                 {
                     time: '17:00',
-                    event: 'Arrival, registration, and team formation',
+                    event: 'Arrival, registration, and welcome apero',
                     place: 'Aula Magna'
                 },
                 {
