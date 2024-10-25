@@ -15,7 +15,7 @@
     <div class="flex flex-col items-center gap-4">
 <!--      <span class="text-center opacity-60">What are you waiting for? <br /> The registration will close in</span>-->
 <!--      <span class="text-center opacity-60">What are you waiting for? <br /> A limited number of spots are still available!</span>-->
-      <span class="text-center opacity-60">Registrations are now closed. See you at the event in</span>
+      <span class="text-center opacity-60">The event will end in:</span>
 
       <div class="flex gap-2">
         <div class="flex flex-col items-center">
@@ -65,7 +65,7 @@ export default {
     }
   },
   mounted() {
-    const deadline = new Date('25 Oct 2024 17:00:00').toLocaleString('en-En', {timeZone: "Europe/Zurich"})
+    const deadline = new Date('27 Oct 2024 11:00:00').toLocaleString('en-En', {timeZone: "Europe/Zurich"})
     this.timer = useTimer(new Date(deadline).getTime(), true)
   }
 }
