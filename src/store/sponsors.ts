@@ -89,6 +89,11 @@ export const useSponsorsStore = defineStore('sponsors', {
                 name: 'masaba',
                 url: 'https://www.masabacoffee.ch/en',
                 type: 'other'
+            },
+            {
+                name: 'repair-store',
+                url: 'https://my.lugano.ch/repairstore/',
+                type: 'other'
             }
         ] as Sponsor[]
     })
