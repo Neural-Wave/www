@@ -19,7 +19,7 @@ export const useRecapsStore = defineStore('recaps', {
                 n_images: 60,
                 statistics: [
                     {
-                        value: "4",
+                        value: "5",
                         title: "Projects"
                     },
                     {
