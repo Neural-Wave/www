@@ -5,7 +5,7 @@
       :opts="{ loop: true }">
     <carousel-content class="h-[40vw] md:h-[50vw]">
       <carousel-item v-for="number in images" :key="number" class="h-min">
-        <img :src="getImage(number)" alt="photo" class="object-cover object-center h-min">
+        <img :src="getImage(number)" alt="photo" class="object-cover object-center h-auto">
       </carousel-item>
     </carousel-content>
     <carousel-previous class="bg-[#160D2F] bg-opacity-20 border border-nw-border rounded-full hover:bg-[#160D2F] hover:text-white" />
