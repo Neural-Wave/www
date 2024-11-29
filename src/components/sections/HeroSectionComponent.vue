@@ -46,6 +46,7 @@
 <!--      </div>-->
 
 <!--      <cta-component href="https://usi.qualtrics.com/jfe/form/SV_bgCFvEjVFUvXq4u" variant="cta">Register Now!</cta-component>-->
+      <cta-component href="/recap">Go to the Recap!</cta-component>
     </div>
   </div>
 </template>

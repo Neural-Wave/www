@@ -28,7 +28,7 @@
 </template>
 
 <script lang="ts">
-import CardComponent from "@/components/CardComponent.vue";
+import CardComponent from "@/components/cards/CardComponent.vue";
 
 export default {
   name: 'JoinSectionComponent',

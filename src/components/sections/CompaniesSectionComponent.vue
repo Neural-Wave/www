@@ -15,7 +15,7 @@
         </span>
 
         <span class="flex items-center justify-center gap-10 flex-wrap" :class="category">
-          <a v-for="sponsor in sponsors().filter(el => el.type.includes(category))" :key="sponsor.name" :href="sponsor.url" target="_blank">
+          <a v-for="sponsor in sponsors.filter(el => el.type.includes(category))" :key="sponsor.name" :href="sponsor.url" target="_blank">
             <img
                 :src="getImage(sponsor.name)"
                 :alt="`${sponsor.name} logo`"
@@ -36,16 +36,26 @@
 </template>
 
 <script lang="ts">
-import {mapState} from "pinia";
-import {useSponsorsStore} from "@/store/sponsors.ts";
+import {mapActions, mapState} from "pinia";
+import {useSponsorsStore, Sponsor} from "@/store/sponsors.ts";
 
 export default {
   name: 'CompaniesSectionComponent',
+  data() {
+    return {
+      year: this.$route.params.year,
+      sponsors: [] as Sponsor[]
+    }
+  },
+  created() {
+    this.sponsors = this.getSponsorsByYear()(this.year)
+  },
   methods: {
     getImage(name: string) {
       return new URL(`../../assets/sponsors/${name}.svg`, import.meta.url).href
     },
-    ...mapState(useSponsorsStore, ['sponsors', 'categories'])
+    ...mapState(useSponsorsStore, ['categories']),
+    ...mapActions(useSponsorsStore, ['getSponsorsByYear'])
   }
 }
 </script>

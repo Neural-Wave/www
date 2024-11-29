@@ -1,6 +1,6 @@
 <template>
   <div class="h-full w-full">
-    <background-top-component v-if="$route.name === 'home'" />
+    <background-top-component v-if="$route.name === 'home' || $route.name === 'recap'" />
     <navigation-bar-component />
 
     <router-view />
